@@ -25,7 +25,8 @@ precisará abrir uma conexão, receber mensagens e mandar mensagens. Para mais i
 
 Para abrir o servidor localmente, você precisará ter em sua
 máquina uma versão de NodeJs 8.16 ou maior, sendo que ela não foi testada com versões menores que essa.
-Para rodar o servidor localmente, copie o código contido em `server.js` para a sua máquina e rode o seguinte comando
+Para rodar o servidor localmente, copie o código contido no arquivo `server.js` deste repositório
+ para a sua máquina e rode o seguinte comando
 em uma janela de terminal, no mesmo diretório em que `server.js` está localizado:
 ```
 node server.js
