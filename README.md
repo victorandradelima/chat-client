@@ -96,6 +96,8 @@ da aplicação, mas podem ser consideradas
 - A mensagem do chat carrega uma propriedade `color`. Utilize-a para mostrar o nome dos usuários.
 - manter o scroll sempre para baixo: não importa quantas mensagens
 já foram carregadas no chat anteriormente, uma nova mensagem sempre deve ser visível. 
+- lembre-se que em um chat web é comum o usuário submeter a mensagem apertando `Enter`, além de existir
+um botão para essa ação
 
 ## Não tenha medo de inovar!
 Fique a vontade para inovar em sua solução. Simplesmente pedimos que em sua resposta seja explicada 
