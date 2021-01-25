@@ -7,7 +7,7 @@ import { hourConvert, fullNameValidation } from '../../helpers'
 import MenuBar from '../menu-bar'
 import './chat-styles.scss'
 
-const websocket = new WebSocket('ws://localhost:1338')
+const websocket = new WebSocket('ws://localhost:1337')
 websocket.onmessage = event => console.log('Websocket server => OnMessage')
 
 const Chat: React.FC = () => {
