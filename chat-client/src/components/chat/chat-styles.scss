@@ -1,0 +1,108 @@
+.alignRight {
+  text-align: right;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.chatSection {
+  width: 100%;
+  min-height: 100vh
+}
+
+.headBG{
+  background-color: #e0e0e0
+}
+
+.borderRight500 {
+  border-right: 1px solid #e0e0e0
+}
+
+.messageArea {
+  height: 100%;
+  overflow-y: auto;
+  background-color: #fafaff;
+  background-image:  linear-gradient(30deg, #e7e8ff 12%, transparent 12.5%, transparent 87%, #e7e8ff 87.5%, #e7e8ff), linear-gradient(150deg, #e7e8ff 12%, transparent 12.5%, transparent 87%, #e7e8ff 87.5%, #e7e8ff), linear-gradient(30deg, #e7e8ff 12%, transparent 12.5%, transparent 87%, #e7e8ff 87.5%, #e7e8ff), linear-gradient(150deg, #e7e8ff 12%, transparent 12.5%, transparent 87%, #e7e8ff 87.5%, #e7e8ff), linear-gradient(60deg, #e7e8ff77 25%, transparent 25.5%, transparent 75%, #e7e8ff77 75%, #e7e8ff77), linear-gradient(60deg, #e7e8ff77 25%, transparent 25.5%, transparent 75%, #e7e8ff77 75%, #e7e8ff77);
+  background-size: 40px 70px;
+  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+}
+
+.messageArea > .alignRight{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.messageArea > .alignLeft{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.chatNamesList{
+  .MuiListItemText-primary{
+    font-weight: bold !important;
+  }
+}
+
+.textArea{
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  border-top: solid 1px #e0e0e0;
+}
+
+.textArea > form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.inputTextArea{
+  width: 100%;
+  padding-right: 10px;
+}
+
+.chatMessageList{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-top: 64px;
+  padding-bottom: 97px;
+  flex-grow: 0;
+  max-width: 100% !important;
+  flex-basis: 100% !important;
+}
+
+.cardMessage{
+  max-width: 90%;
+}
+
+.titleNameModal{
+  text-align: center;
+}
+
+.inputButtonNameArea{
+  width: 100%;
+}
+
+.inputButtonNameArea > form{
+  display: flex;
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+  align-items: stretch;
+}
+
+.menuButton{
+  margin-right: 16px,
+}
+
+.title{
+  flex-grow: 1,
+}
+
+.paperMessageArea{
+  width: 85%;
+}
