@@ -8,6 +8,9 @@ Sua inicialização e instalação dos pacotes iniciais foi feita com o node na 
 
 Para rodar este projeto em ambiente de desenvolvimento utilize:
 
+### `yarn install`
+
+Utilize para instalar os pacotes de dependência.
 ### `yarn start`
 
 Abra [http://localhost:3000](http://localhost:3000) para ver no browser.
